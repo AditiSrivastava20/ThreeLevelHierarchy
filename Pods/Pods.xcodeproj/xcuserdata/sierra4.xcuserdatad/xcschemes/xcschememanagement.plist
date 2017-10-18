@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>IBAnimatable.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ThreeLevelHierarchy.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ThreeLevelHierarchyTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ThreeLevelHierarchyUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ThreeLevelAccordian.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>321B41C90C2861D4D94A6386C983E6DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4FA6D1C76936EFC04E16F9A711AC8285</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B3C271CE6119E785525D3573D37D903D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D1A840EE38E9D56D06BF4AE2E7058218</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E4A80CF8B7CCE3D8DD616A5CA581839E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

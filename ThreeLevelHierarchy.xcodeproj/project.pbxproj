@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DCD3C2F1E9758AF0048C09D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCD3C2E1E9758AF0048C09D /* AppDelegate.swift */; };
-		1DCD3C311E9758AF0048C09D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCD3C301E9758AF0048C09D /* ViewController.swift */; };
-		1DCD3C341E9758AF0048C09D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DCD3C321E9758AF0048C09D /* Main.storyboard */; };
+		1D6EB1CC1E9774B400FE3B3D /* DataModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6EB1CB1E9774B400FE3B3D /* DataModal.swift */; };
 		1DCD3C371E9758AF0048C09D /* ThreeLevelHierarchy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DCD3C351E9758AF0048C09D /* ThreeLevelHierarchy.xcdatamodeld */; };
 		1DCD3C391E9758AF0048C09D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DCD3C381E9758AF0048C09D /* Assets.xcassets */; };
-		1DCD3C3C1E9758AF0048C09D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DCD3C3A1E9758AF0048C09D /* LaunchScreen.storyboard */; };
 		1DCD3C471E9758AF0048C09D /* ThreeLevelHierarchyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCD3C461E9758AF0048C09D /* ThreeLevelHierarchyTests.swift */; };
 		1DCD3C521E9758AF0048C09D /* ThreeLevelHierarchyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCD3C511E9758AF0048C09D /* ThreeLevelHierarchyUITests.swift */; };
+		1DCD3C661E97592B0048C09D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCD3C651E97592B0048C09D /* AppDelegate.swift */; };
+		1DCD3C681E9759360048C09D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCD3C671E9759360048C09D /* ViewController.swift */; };
+		1DCD3C6B1E9759460048C09D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DCD3C691E9759460048C09D /* LaunchScreen.storyboard */; };
+		1DCD3C6C1E9759460048C09D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DCD3C6A1E9759460048C09D /* Main.storyboard */; };
+		1DCD3C6F1E97716E0048C09D /* ExpandableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCD3C6E1E97716E0048C09D /* ExpandableTableViewCell.swift */; };
+		343AE12086382D780E871F0E /* Pods_ThreeLevelHierarchy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8208718E07CFCFE3AD734B47 /* Pods_ThreeLevelHierarchy.framework */; };
+		9427ACF4E57860231EF56C48 /* Pods_ThreeLevelHierarchyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A689A8175F70B2676CA35CA /* Pods_ThreeLevelHierarchyUITests.framework */; };
+		988CD59B857933665530A371 /* Pods_ThreeLevelHierarchyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A347AC2F8FDC54ABB13692FC /* Pods_ThreeLevelHierarchyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D6EB1CB1E9774B400FE3B3D /* DataModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModal.swift; sourceTree = "<group>"; };
 		1DCD3C2B1E9758AF0048C09D /* ThreeLevelHierarchy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeLevelHierarchy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DCD3C2E1E9758AF0048C09D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1DCD3C301E9758AF0048C09D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1DCD3C331E9758AF0048C09D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DCD3C361E9758AF0048C09D /* ThreeLevelHierarchy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ThreeLevelHierarchy.xcdatamodel; sourceTree = "<group>"; };
 		1DCD3C381E9758AF0048C09D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1DCD3C3B1E9758AF0048C09D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DCD3C3D1E9758AF0048C09D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DCD3C421E9758AF0048C09D /* ThreeLevelHierarchyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeLevelHierarchyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DCD3C461E9758AF0048C09D /* ThreeLevelHierarchyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeLevelHierarchyTests.swift; sourceTree = "<group>"; };
@@ -49,6 +51,20 @@
 		1DCD3C4D1E9758AF0048C09D /* ThreeLevelHierarchyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeLevelHierarchyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DCD3C511E9758AF0048C09D /* ThreeLevelHierarchyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeLevelHierarchyUITests.swift; sourceTree = "<group>"; };
 		1DCD3C531E9758AF0048C09D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DCD3C651E97592B0048C09D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DCD3C671E9759360048C09D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DCD3C691E9759460048C09D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DCD3C6A1E9759460048C09D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1DCD3C6E1E97716E0048C09D /* ExpandableTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableTableViewCell.swift; sourceTree = "<group>"; };
+		33D54F19914BEADED57A5162 /* Pods-ThreeLevelHierarchyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeLevelHierarchyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeLevelHierarchyUITests/Pods-ThreeLevelHierarchyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4A689A8175F70B2676CA35CA /* Pods_ThreeLevelHierarchyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThreeLevelHierarchyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BDF68EB1930F7D6C80CD12F /* Pods-ThreeLevelHierarchy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeLevelHierarchy.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeLevelHierarchy/Pods-ThreeLevelHierarchy.release.xcconfig"; sourceTree = "<group>"; };
+		67821899289EFB8EFFBBCBAB /* Pods-ThreeLevelHierarchyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeLevelHierarchyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeLevelHierarchyUITests/Pods-ThreeLevelHierarchyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8208718E07CFCFE3AD734B47 /* Pods_ThreeLevelHierarchy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThreeLevelHierarchy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24F2AAFB0719865CF3307EB /* Pods-ThreeLevelHierarchyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeLevelHierarchyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeLevelHierarchyTests/Pods-ThreeLevelHierarchyTests.release.xcconfig"; sourceTree = "<group>"; };
+		A347AC2F8FDC54ABB13692FC /* Pods_ThreeLevelHierarchyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThreeLevelHierarchyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8869F7233E2AE3E7800F8AC /* Pods-ThreeLevelHierarchyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeLevelHierarchyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeLevelHierarchyTests/Pods-ThreeLevelHierarchyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE761934D08892F309BEC676 /* Pods-ThreeLevelHierarchy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeLevelHierarchy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeLevelHierarchy/Pods-ThreeLevelHierarchy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343AE12086382D780E871F0E /* Pods_ThreeLevelHierarchy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				988CD59B857933665530A371 /* Pods_ThreeLevelHierarchyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9427ACF4E57860231EF56C48 /* Pods_ThreeLevelHierarchyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,8 @@
 				1DCD3C451E9758AF0048C09D /* ThreeLevelHierarchyTests */,
 				1DCD3C501E9758AF0048C09D /* ThreeLevelHierarchyUITests */,
 				1DCD3C2C1E9758AF0048C09D /* Products */,
+				7C31EBC48EE1B57528ECC975 /* Pods */,
+				EF46CEB386010D123F41F5ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +120,8 @@
 		1DCD3C2D1E9758AF0048C09D /* ThreeLevelHierarchy */ = {
 			isa = PBXGroup;
 			children = (
-				1DCD3C2E1E9758AF0048C09D /* AppDelegate.swift */,
-				1DCD3C301E9758AF0048C09D /* ViewController.swift */,
-				1DCD3C321E9758AF0048C09D /* Main.storyboard */,
+				1DCD3C5F1E9758ED0048C09D /* Everything */,
 				1DCD3C381E9758AF0048C09D /* Assets.xcassets */,
-				1DCD3C3A1E9758AF0048C09D /* LaunchScreen.storyboard */,
 				1DCD3C3D1E9758AF0048C09D /* Info.plist */,
 				1DCD3C351E9758AF0048C09D /* ThreeLevelHierarchy.xcdatamodeld */,
 			);
@@ -128,6 +146,90 @@
 			path = ThreeLevelHierarchyUITests;
 			sourceTree = "<group>";
 		};
+		1DCD3C5F1E9758ED0048C09D /* Everything */ = {
+			isa = PBXGroup;
+			children = (
+				1DCD3C6D1E9771510048C09D /* TableCellClass */,
+				1DCD3C641E9759220048C09D /* AppDelegate */,
+				1DCD3C601E9758ED0048C09D /* MVC */,
+			);
+			path = Everything;
+			sourceTree = "<group>";
+		};
+		1DCD3C601E9758ED0048C09D /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				1DCD3C611E9758ED0048C09D /* Controller */,
+				1DCD3C621E9758ED0048C09D /* Modal */,
+				1DCD3C631E9758ED0048C09D /* View */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		1DCD3C611E9758ED0048C09D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1DCD3C671E9759360048C09D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1DCD3C621E9758ED0048C09D /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				1D6EB1CB1E9774B400FE3B3D /* DataModal.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		1DCD3C631E9758ED0048C09D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1DCD3C691E9759460048C09D /* LaunchScreen.storyboard */,
+				1DCD3C6A1E9759460048C09D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1DCD3C641E9759220048C09D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1DCD3C651E97592B0048C09D /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1DCD3C6D1E9771510048C09D /* TableCellClass */ = {
+			isa = PBXGroup;
+			children = (
+				1DCD3C6E1E97716E0048C09D /* ExpandableTableViewCell.swift */,
+			);
+			path = TableCellClass;
+			sourceTree = "<group>";
+		};
+		7C31EBC48EE1B57528ECC975 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE761934D08892F309BEC676 /* Pods-ThreeLevelHierarchy.debug.xcconfig */,
+				5BDF68EB1930F7D6C80CD12F /* Pods-ThreeLevelHierarchy.release.xcconfig */,
+				D8869F7233E2AE3E7800F8AC /* Pods-ThreeLevelHierarchyTests.debug.xcconfig */,
+				A24F2AAFB0719865CF3307EB /* Pods-ThreeLevelHierarchyTests.release.xcconfig */,
+				67821899289EFB8EFFBBCBAB /* Pods-ThreeLevelHierarchyUITests.debug.xcconfig */,
+				33D54F19914BEADED57A5162 /* Pods-ThreeLevelHierarchyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF46CEB386010D123F41F5ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8208718E07CFCFE3AD734B47 /* Pods_ThreeLevelHierarchy.framework */,
+				A347AC2F8FDC54ABB13692FC /* Pods_ThreeLevelHierarchyTests.framework */,
+				4A689A8175F70B2676CA35CA /* Pods_ThreeLevelHierarchyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DCD3C561E9758AF0048C09D /* Build configuration list for PBXNativeTarget "ThreeLevelHierarchy" */;
 			buildPhases = (
+				A6B2D4780A0DA486CB844680 /* [CP] Check Pods Manifest.lock */,
 				1DCD3C271E9758AF0048C09D /* Sources */,
 				1DCD3C281E9758AF0048C09D /* Frameworks */,
 				1DCD3C291E9758AF0048C09D /* Resources */,
+				3EB75EBB0708A28CD31DC61B /* [CP] Embed Pods Frameworks */,
+				AB1F0E60418D5FC555A00EA9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +257,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DCD3C591E9758AF0048C09D /* Build configuration list for PBXNativeTarget "ThreeLevelHierarchyTests" */;
 			buildPhases = (
+				35EA5A163D3897B5F5092C1E /* [CP] Check Pods Manifest.lock */,
 				1DCD3C3E1E9758AF0048C09D /* Sources */,
 				1DCD3C3F1E9758AF0048C09D /* Frameworks */,
 				1DCD3C401E9758AF0048C09D /* Resources */,
+				2E0DE6E61D11857F70EFBC5C /* [CP] Embed Pods Frameworks */,
+				12FC6A1FFB36DBF799BC34C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DCD3C5C1E9758AF0048C09D /* Build configuration list for PBXNativeTarget "ThreeLevelHierarchyUITests" */;
 			buildPhases = (
+				24F8FB39B9A5DE73E253014C /* [CP] Check Pods Manifest.lock */,
 				1DCD3C491E9758AF0048C09D /* Sources */,
 				1DCD3C4A1E9758AF0048C09D /* Frameworks */,
 				1DCD3C4B1E9758AF0048C09D /* Resources */,
+				C0BFFF38E5C1860A0D5867F7 /* [CP] Embed Pods Frameworks */,
+				10644CB8B29AF7E7A0951F0F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +346,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DCD3C3C1E9758AF0048C09D /* LaunchScreen.storyboard in Resources */,
+				1DCD3C6C1E9759460048C09D /* Main.storyboard in Resources */,
+				1DCD3C6B1E9759460048C09D /* LaunchScreen.storyboard in Resources */,
 				1DCD3C391E9758AF0048C09D /* Assets.xcassets in Resources */,
-				1DCD3C341E9758AF0048C09D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +368,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10644CB8B29AF7E7A0951F0F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThreeLevelHierarchyUITests/Pods-ThreeLevelHierarchyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12FC6A1FFB36DBF799BC34C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThreeLevelHierarchyTests/Pods-ThreeLevelHierarchyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24F8FB39B9A5DE73E253014C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2E0DE6E61D11857F70EFBC5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThreeLevelHierarchyTests/Pods-ThreeLevelHierarchyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35EA5A163D3897B5F5092C1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3EB75EBB0708A28CD31DC61B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThreeLevelHierarchy/Pods-ThreeLevelHierarchy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6B2D4780A0DA486CB844680 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB1F0E60418D5FC555A00EA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThreeLevelHierarchy/Pods-ThreeLevelHierarchy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0BFFF38E5C1860A0D5867F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThreeLevelHierarchyUITests/Pods-ThreeLevelHierarchyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1DCD3C271E9758AF0048C09D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DCD3C661E97592B0048C09D /* AppDelegate.swift in Sources */,
 				1DCD3C371E9758AF0048C09D /* ThreeLevelHierarchy.xcdatamodeld in Sources */,
-				1DCD3C311E9758AF0048C09D /* ViewController.swift in Sources */,
-				1DCD3C2F1E9758AF0048C09D /* AppDelegate.swift in Sources */,
+				1DCD3C681E9759360048C09D /* ViewController.swift in Sources */,
+				1D6EB1CC1E9774B400FE3B3D /* DataModal.swift in Sources */,
+				1DCD3C6F1E97716E0048C09D /* ExpandableTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,25 +549,6 @@
 			targetProxy = 1DCD3C4E1E9758AF0048C09D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1DCD3C321E9758AF0048C09D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1DCD3C331E9758AF0048C09D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1DCD3C3A1E9758AF0048C09D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1DCD3C3B1E9758AF0048C09D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1DCD3C541E9758AF0048C09D /* Debug */ = {
@@ -414,6 +646,7 @@
 		};
 		1DCD3C571E9758AF0048C09D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE761934D08892F309BEC676 /* Pods-ThreeLevelHierarchy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ThreeLevelHierarchy/Info.plist;
@@ -426,6 +659,7 @@
 		};
 		1DCD3C581E9758AF0048C09D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BDF68EB1930F7D6C80CD12F /* Pods-ThreeLevelHierarchy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ThreeLevelHierarchy/Info.plist;
@@ -438,6 +672,7 @@
 		};
 		1DCD3C5A1E9758AF0048C09D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8869F7233E2AE3E7800F8AC /* Pods-ThreeLevelHierarchyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +687,7 @@
 		};
 		1DCD3C5B1E9758AF0048C09D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A24F2AAFB0719865CF3307EB /* Pods-ThreeLevelHierarchyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +702,7 @@
 		};
 		1DCD3C5D1E9758AF0048C09D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67821899289EFB8EFFBBCBAB /* Pods-ThreeLevelHierarchyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ThreeLevelHierarchyUITests/Info.plist;
@@ -479,6 +716,7 @@
 		};
 		1DCD3C5E1E9758AF0048C09D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D54F19914BEADED57A5162 /* Pods-ThreeLevelHierarchyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ThreeLevelHierarchyUITests/Info.plist;
@@ -509,6 +747,7 @@
 				1DCD3C581E9758AF0048C09D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DCD3C591E9758AF0048C09D /* Build configuration list for PBXNativeTarget "ThreeLevelHierarchyTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +756,7 @@
 				1DCD3C5B1E9758AF0048C09D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DCD3C5C1E9758AF0048C09D /* Build configuration list for PBXNativeTarget "ThreeLevelHierarchyUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +765,7 @@
 				1DCD3C5E1E9758AF0048C09D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

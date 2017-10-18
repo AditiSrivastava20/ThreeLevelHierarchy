@@ -1,0 +1,15 @@
+PODS:
+  - IBAnimatable (3.1.3)
+  - ThreeLevelAccordian (0.2.0)
+
+DEPENDENCIES:
+  - IBAnimatable
+  - ThreeLevelAccordian
+
+SPEC CHECKSUMS:
+  IBAnimatable: ad640d47659cbbfa4cf88a127fdc663b2ec4c66a
+  ThreeLevelAccordian: 5a6f2359a9b24a63cf20dcfc05d4612af719731f
+
+PODFILE CHECKSUM: 63ab689c0bef7d0c7af75dc51f3d493a29dc6336
+
+COCOAPODS: 1.2.0
